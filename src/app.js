@@ -15,22 +15,6 @@ console.log('Running app.js');
 
 const store = configureStore(); 
 
-store.dispatch(addExpense({
-    description: 'water bill',
-    amount: 5000,
-    createdAt: moment().valueOf()-5000
-}));
-store.dispatch(addExpense({
-    description: 'gas bill',
-    amount: 10000,
-    createdAt: moment().valueOf()-10000000
-}));
-store.dispatch(addExpense({
-    description: 'rent',
-    amount: 90000,
-    createdAt: moment().valueOf()-20000000
-}));
-
 const jsx = (
     <Provider store={store}> 
         <AppRouter /> 
