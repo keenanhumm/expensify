@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should correctly render expenses summary with 1 expense 1`] = `
-<div>
+<div
+  className="container"
+>
   <h3>
     Viewing 
     1
@@ -15,7 +17,9 @@ exports[`should correctly render expenses summary with 1 expense 1`] = `
 `;
 
 exports[`should correctly render expenses summary with more than one expense 1`] = `
-<div>
+<div
+  className="container"
+>
   <h3>
     Viewing 
     23

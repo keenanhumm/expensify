@@ -1,6 +1,19 @@
 @import 'base/settings';
 @import 'base/base';
+@import 'components/header';
+@import 'components/box-layout';
 
 
+.nav-link {
+    color:gray;
+    text-decoration: none;
+}
 
+.container {
+    padding:10px;
+}
+
+.container-5 {
+    padding: 5px;
+}
 

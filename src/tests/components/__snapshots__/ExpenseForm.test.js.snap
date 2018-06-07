@@ -12,12 +12,17 @@ exports[`should render error message for an invalid submission 1`] = `
       type="text"
       value=""
     />
+     
+    <br />
+    <br />
     <input
       onChange={[Function]}
       placeholder="Amount"
       type="number"
       value=""
     />
+    <br />
+    <br />
     <SingleDatePicker
       anchorDirection="left"
       customCloseIcon={null}
@@ -90,14 +95,22 @@ exports[`should render error message for an invalid submission 1`] = `
       withFullScreenPortal={false}
       withPortal={false}
     />
+    <br />
+    <br />
     <textarea
       onChange={[Function]}
       placeholder="Additional note on this expense (optional)"
       value=""
-    />
+    >
+      <br />
+      <br />
+    </textarea>
+    <br />
+    <br />
     <button>
-      Add Expense
+      Submit
     </button>
+    <br />
   </form>
 </div>
 `;
@@ -114,12 +127,17 @@ exports[`should render error message for an invalid submission 2`] = `
       type="text"
       value=""
     />
+     
+    <br />
+    <br />
     <input
       onChange={[Function]}
       placeholder="Amount"
       type="number"
       value=""
     />
+    <br />
+    <br />
     <SingleDatePicker
       anchorDirection="left"
       customCloseIcon={null}
@@ -192,19 +210,27 @@ exports[`should render error message for an invalid submission 2`] = `
       withFullScreenPortal={false}
       withPortal={false}
     />
+    <br />
+    <br />
     <textarea
       onChange={[Function]}
       placeholder="Additional note on this expense (optional)"
       value=""
-    />
+    >
+      <br />
+      <br />
+    </textarea>
     <div>
       <p>
         Please enter a valid description and amount!
       </p>
     </div>
+    <br />
+    <br />
     <button>
-      Add Expense
+      Submit
     </button>
+    <br />
   </form>
 </div>
 `;
@@ -221,12 +247,17 @@ exports[`should render expense form correctly with expense details 1`] = `
       type="text"
       value="Gum"
     />
+     
+    <br />
+    <br />
     <input
       onChange={[Function]}
       placeholder="Amount"
       type="number"
       value="2"
     />
+    <br />
+    <br />
     <SingleDatePicker
       anchorDirection="left"
       customCloseIcon={null}
@@ -299,14 +330,22 @@ exports[`should render expense form correctly with expense details 1`] = `
       withFullScreenPortal={false}
       withPortal={false}
     />
+    <br />
+    <br />
     <textarea
       onChange={[Function]}
       placeholder="Additional note on this expense (optional)"
       value=""
-    />
+    >
+      <br />
+      <br />
+    </textarea>
+    <br />
+    <br />
     <button>
-      Add Expense
+      Submit
     </button>
+    <br />
   </form>
 </div>
 `;
@@ -323,12 +362,17 @@ exports[`should render expense form without expense details 1`] = `
       type="text"
       value=""
     />
+     
+    <br />
+    <br />
     <input
       onChange={[Function]}
       placeholder="Amount"
       type="number"
       value=""
     />
+    <br />
+    <br />
     <SingleDatePicker
       anchorDirection="left"
       customCloseIcon={null}
@@ -401,14 +445,22 @@ exports[`should render expense form without expense details 1`] = `
       withFullScreenPortal={false}
       withPortal={false}
     />
+    <br />
+    <br />
     <textarea
       onChange={[Function]}
       placeholder="Additional note on this expense (optional)"
       value=""
-    />
+    >
+      <br />
+      <br />
+    </textarea>
+    <br />
+    <br />
     <button>
-      Add Expense
+      Submit
     </button>
+    <br />
   </form>
 </div>
 `;

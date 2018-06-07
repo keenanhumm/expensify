@@ -2,8 +2,13 @@
 
 exports[`should render expense dashboard correctly 1`] = `
 <div>
+  <Component />
   <Connect(ExpenseListFilters) />
-  <Connect(ExpensesSummary) />
-  <Connect(ExpenseList) />
+  <div
+    className="box-layout"
+  >
+    <Connect(ExpensesSummary) />
+    <Connect(ExpenseList) />
+  </div>
 </div>
 `;
